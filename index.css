@@ -1,0 +1,425 @@
+/* -------------------------------------------------------------------------- */
+/*                                Global navbar section                       */
+/* -------------------------------------------------------------------------- */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.header-page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#logotext {
+    font-size: 14px;
+}
+
+.navbar-navigate {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 5px;
+}
+
+.navbar-nav {
+    font-size: 14px;
+}
+
+.nav-link.active {
+    background-color: hsl(28, 87%, 62%);
+    /* Orange background for active link */
+    color: #000;
+    /* Black text color */
+    min-width: auto;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.nav-link.active:hover {
+    color: #f1f1f1;
+    background-color: hsl(28, 91%, 50%);
+}
+
+.nav-link:hover {
+    color: #FFA740;
+}
+
+ .dropdown-item {
+    color: #FFA740;
+}
+
+/* end navar section */
+
+/* -------------------------------------------------------------------------- */
+/*                                Global hero secion                   */
+/* -------------------------------------------------------------------------- */
+
+/* .header-page .company-container{
+
+    margin-top: 2rem;
+} */
+.header-page .company-container .company-header {
+    position: relative;
+    padding-left: 9rem;
+    /* margin-right: -4rem; */
+    margin: 0;
+}
+
+.header-page .company-container .company-header .hunder-line1 {
+    position: absolute;
+    top: 5rem;
+}
+
+.header-page .company-container .company-header .hunder-line2 {
+    position: absolute;
+    top: 13rem;
+    left: 25rem;
+}
+
+.header-page .hero-header {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.header-page .hero-header .rotate-img .circle_image {
+    position: absolute;
+    z-index: -1;
+    width: 20rem;
+    left: 279px;
+    bottom: 147px;
+    opacity: 0.2;
+    animation: RotateMoveSty-1 45s linear infinite;
+
+
+}
+
+@keyframes RotateMoveSty-1 {
+    0% {
+        left: 10px;
+        top: 10px;
+      }
+      25% {
+        left: 200px; /* Move right */
+        top: 10px;  /* Stay at the top */
+      }
+      50% {
+        left: 200px; /* Stay right */
+        top: 200px;  /* Move down */
+      }
+      75% {
+        left: 10px;  /* Move back to the left */
+        top: 200px;  /* Stay at the bottom */
+      }
+      100% {
+        left: 10px; /* Move back to the original position */
+        top: 10px;  /* Move back to the top */
+      }
+}
+
+
+.header-page .hero-header .rotate-img .triangel_image {
+    position: absolute;
+    z-index: -1;
+    width: 5rem;
+    left: 767px;
+    /* bottom: -13rem; */
+    top: 360px;
+    opacity: 0.2;
+    transform: rotate(349deg);
+    animation: RotateMoveSty-4 45s linear infinite;
+    transition: 0.5s;
+
+}
+
+@keyframes RotateMoveSty-4 {
+    0% {
+        -webkit-transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotateZ(350deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+        transform: rotateZ(350deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+    }
+
+
+    0% {
+        bottom: 0px;
+    }
+
+    50% {
+        right: -10px;
+    }
+
+    75% {
+        top: 9%;
+    }
+
+    80% {
+        bottom: 0px;
+    }
+
+    90% {
+        left: -10px;
+    }
+
+    100% {
+        bottom: 5px;
+    }
+}
+
+
+
+.hero-header::after {
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 339px;
+    left: 100px;
+
+    width: 6rem;
+    height: 5rem;
+    opacity: 0.2;
+    background: url(../img/vectore/triangel.png) center center no-repeat;
+    animation: RotateMoveSty-3 45s linear infinite;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+@keyframes RotateMoveSty-3 {
+    0% {
+        -webkit-transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotateZ(360deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+        transform: rotateZ(360deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+    }
+
+
+    0% {
+        bottom: 0px;
+    }
+
+    50% {
+        left: -10px;
+    }
+
+    75% {
+        bottom: 9%;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+} */ */
+
+.hero-header .rotate-img .rotate-sty-2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px solid rgba(247, 71, 128, 0.1);
+    background: transparent;
+    animation: RotateMoveSty-0 45s linear infinite;
+    transition: 0.5s;
+
+}
+
+@keyframes RotateMoveSty-0 {
+    0% {
+        left: 0px;
+    }
+
+    40% {
+        top: -40px;
+    }
+
+    50% {
+        left: 600px;
+    }
+
+    70% {
+        top: 300px;
+    }
+
+    80% {
+        left: 200px;
+    }
+
+    95% {
+        top: -40px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
+
+
+
+.header-page .hero-header .hero-img img {
+
+    width: 24rem;
+    margin-top: 11.2rem;
+
+}
+
+
+.header-page .hero-header .company-container .welcome-text {
+    font-size: 1.2rem;
+    color: #FFC27A;
+    margin: 0;
+}
+
+.header-page .hero-header .company-container .company-name {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.header-page .hero-header .company-container .company-abrivation {
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+.header-page .hero-header .company-container .company-button {
+    font-size: 1rem;
+    background-color: #FFC27A;
+    border-radius: 0.5rem;
+}
+
+.header-page .hero-header .company-container .company-smart-word {
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+
+.header-page .image-container {
+    position: relative;
+    width: 100%;
+
+}
+
+.header-page .image-container .left-img {
+    position: absolute;
+    top: -309px;
+    left: -144px;
+    z-index: -1;
+    transform: rotate(4deg);
+    width: 60%;
+
+
+}
+
+
+.header-page .image-container .right-img {
+    position: absolute;
+    top: -140px;
+    left: 815px;
+    z-index: -1;
+    transform: rotate(1deg);
+    width: 69%;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .inimg {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 200px;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 {
+    margin-right: -5rem;
+}
+
+/* __________________________________________________________________ */
+/* hover effect 1 */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1 {
+    border: 1px solid rgb(239, 239, 239);
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1 .button_color1 {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition */
+
+}
+
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1:hover {
+    border: 1px solid #EDAC2E;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1 .button_color1:hover {
+    background-color: #EDAC2E;
+
+}
+
+/* hover 2 */
+/* hover effect 2 */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2 {
+    border: 1px solid rgb(239, 239, 239);
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2 .button_color2 {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition */
+
+}
+
+/* hover effect */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2:hover {
+    border: 1px solid #EDAC2E;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2 .button_color2:hover {
+    background-color: #EDAC2E;
+
+}
+
+/* hover 3 */
+/* hover effect 3 */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3 {
+    border: 1px solid rgb(239, 239, 239);
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3 .button_color3 {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition */
+
+}
+
+/* hover effect */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3:hover {
+    border: 1px solid #EDAC2E;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3 .button_color3:hover {
+    background-color: #EDAC2E;
+
+}
+
+

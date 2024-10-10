@@ -1,0 +1,1664 @@
+/* -------------------------------------------------------------------------- */
+/*                                Global navbar section                       */
+/* -------------------------------------------------------------------------- */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.header-page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#logotext {
+    font-size: 14px;
+}
+
+.navbar-navigate {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 5px;
+}
+
+.navbar-nav {
+    font-size: 14px;
+}
+
+.nav-link.active {
+    background-color: hsl(28, 87%, 62%);
+    /* Orange background for active link */
+    color: #000;
+    /* Black text color */
+    min-width: auto;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.nav-link.active:hover {
+    color: #f1f1f1;
+    background-color: hsl(28, 91%, 50%);
+}
+
+.nav-link:hover {
+    color: #FFA740;
+}
+
+ .dropdown-item {
+    color: #FFA740;
+}
+
+
+
+/* end navar section */
+
+/* -------------------------------------------------------------------------- */
+/*                                Global hero secion                   */
+/* -------------------------------------------------------------------------- */
+
+/* .header-page .company-container{
+
+    margin-top: 2rem;
+} */
+.header-page .company-container .company-header {
+    position: relative;
+    padding-left: 9rem;
+    /* margin-right: -4rem; */
+    margin: 0;
+}
+
+.header-page .company-container .company-header .hunder-line1 {
+    position: absolute;
+    top: 5rem;
+}
+
+.header-page .company-container .company-header .hunder-line2 {
+    position: absolute;
+    top: 13rem;
+    left: 25rem;
+}
+
+.header-page .hero-header {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.header-page .hero-header .rotate-img .circle_image {
+    position: absolute;
+    z-index: -1;
+    width: 30rem;
+    left: 136px;
+    bottom: 5px;
+    opacity: 0.2;
+    animation: RotateMoveSty-1 45s linear infinite;
+    transition: 0.5s;
+
+}
+
+@keyframes RotateMoveSty-1 {
+    0% {
+        right: 88px;
+    }
+
+    40% {
+        top: -0px;
+    }
+
+    50% {
+        right: 700px;
+    }
+
+    70% {
+        top: 500px;
+    }
+
+    80% {
+        right: 400px;
+    }
+
+    95% {
+        top: -0px;
+    }
+
+    100% {
+        right: 99px;
+    }
+}
+
+
+
+
+
+.header-page .hero-header .rotate-img .triangel_image {
+    position: absolute;
+    z-index: -1;
+    width: 5rem;
+    left: 767px;
+    /* bottom: -13rem; */
+    top: 360px;
+    opacity: 0.2;
+    transform: rotate(349deg);
+    animation: RotateMoveSty-4 45s linear infinite;
+    transition: 0.5s;
+
+}
+
+@keyframes RotateMoveSty-4 {
+    0% {
+        -webkit-transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotateZ(350deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+        transform: rotateZ(350deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+    }
+
+
+    0% {
+        bottom: 0px;
+    }
+
+    50% {
+        right: -10px;
+    }
+
+    75% {
+        top: 9%;
+    }
+
+    80% {
+        bottom: 0px;
+    }
+
+    90% {
+        left: -10px;
+    }
+
+    100% {
+        bottom: 5px;
+    }
+}
+
+
+
+
+.hero-header::after {
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 339px;
+    left: 100px;
+
+    width: 6rem;
+    height: 5rem;
+    opacity: 0.2;
+    background: url(../img/vectore/triangel.png) center center no-repeat;
+    animation: RotateMoveSty-3 45s linear infinite;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+@keyframes RotateMoveSty-3 {
+    0% {
+        -webkit-transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotateZ(360deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+        transform: rotateZ(360deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+    }
+
+
+    0% {
+        bottom: 0px;
+    }
+
+    50% {
+        left: -10px;
+    }
+
+    75% {
+        bottom: 9%;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}
+
+.hero-header .rotate-img .rotate-sty-2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px solid rgba(247, 71, 128, 0.1);
+    background: transparent;
+    animation: RotateMoveSty-0 45s linear infinite;
+    transition: 0.5s;
+
+}
+
+@keyframes RotateMoveSty-0 {
+    0% {
+        left: 0px;
+    }
+
+    40% {
+        top: -40px;
+    }
+
+    50% {
+        left: 600px;
+    }
+
+    70% {
+        top: 300px;
+    }
+
+    80% {
+        left: 200px;
+    }
+
+    95% {
+        top: -40px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
+
+
+
+.header-page .hero-header .hero-img img {
+
+    width: 24rem;
+    margin-top: 11.2rem;
+
+}
+
+
+.header-page .hero-header .company-container .welcome-text {
+    font-size: 1.2rem;
+    color: #FFC27A;
+    margin: 0;
+}
+
+.header-page .hero-header .company-container .company-name {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.header-page .hero-header .company-container .company-abrivation {
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+.header-page .hero-header .company-container .company-button {
+    font-size: 1rem;
+    background-color: #FFC27A;
+    border-radius: 0.5rem;
+}
+
+.header-page .hero-header .company-container .company-smart-word {
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+
+.header-page .image-container {
+    position: relative;
+    width: 100%;
+
+}
+
+.header-page .image-container .left-img {
+    position: absolute;
+    top: -309px;
+    left: -144px;
+    z-index: -1;
+    transform: rotate(4deg);
+    width: 60%;
+
+
+}
+
+
+.header-page .image-container .right-img {
+    position: absolute;
+    top: -140px;
+    left: 815px;
+    z-index: -1;
+    transform: rotate(1deg);
+    width: 69%;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .inimg {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 200px;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 {
+    margin-right: -5rem;
+}
+
+/* __________________________________________________________________ */
+/* hover effect 1 */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1 {
+    border: 1px solid rgb(239, 239, 239);
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1 .button_color1 {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition */
+
+}
+
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1:hover {
+    border: 1px solid #EDAC2E;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation1 .button_color1:hover {
+    background-color: #EDAC2E;
+
+}
+
+/* hover 2 */
+/* hover effect 2 */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2 {
+    border: 1px solid rgb(239, 239, 239);
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2 .button_color2 {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition */
+
+}
+
+/* hover effect */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2:hover {
+    border: 1px solid #EDAC2E;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation2 .button_color2:hover {
+    background-color: #EDAC2E;
+
+}
+
+/* hover 3 */
+/* hover effect 3 */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3 {
+    border: 1px solid rgb(239, 239, 239);
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3 .button_color3 {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition */
+
+}
+
+/* hover effect */
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3:hover {
+    border: 1px solid #EDAC2E;
+
+}
+
+.header-page .hero-header .company-container .conpany-navigation0 .company-navigation3 .button_color3:hover {
+    background-color: #EDAC2E;
+
+}
+/* .header-page .hero-header .company-container .conpany-navigation0 .company-navigation1 .img-icon img {
+    max-width: 100%;
+    height: auto;
+} */
+/* __________________________________________________________________________________________________________ */
+
+
+/* media quary css design */
+@media (max-width: 375px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+
+
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #FFC27A;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #FFC27A;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+
+    }
+    .header-page .hero-header .rotate-img .triangel_image {
+        width: 5rem;
+        left: 767px;
+        top: 360px;
+        opacity: 0.2;
+    }
+
+    .hero-header::after {
+
+        left: 100px;
+        top: 339px;
+        left: 100px;
+        width: 6rem;
+        height: 5rem;
+        opacity: 0.2;
+
+    }
+  }
+  
+
+
+@media (max-width: 667px) {
+
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+
+
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #FFC27A;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #FFC27A;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+
+
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #FFC27A;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #FFC27A;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+
+    }
+    .header-page .hero-header .rotate-img .triangel_image {
+        width: 5rem;
+        left: 767px;
+        top: 360px;
+        opacity: 0.2;
+    }
+
+    .hero-header::after {
+
+        left: 100px;
+        top: 339px;
+        left: 100px;
+        width: 6rem;
+        height: 5rem;
+        opacity: 0.2;
+
+    }
+
+}
+
+@media(max-width: 768px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+
+
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #FFC27A;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #FFC27A;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+
+
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #FFC27A;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #FFC27A;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header-page .company-container .company-header {
+        padding-left: 2rem;
+    }
+
+    .header-page .company-container .company-header .hunder-line1 {
+        top: 3.8rem;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 8.7rem;
+        left: 7rem;
+    }
+}
+
+
+
+
+/* end of hero section */
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                info-page                      */
+/* -------------------------------------------------------------------------- */
+
+.info-page .info-page-details h1 {
+    color: #EDAC2E;
+}
+
+.info-page .info-page-details h3 {
+    color: #020067;
+}
+
+.info-page .info-page-details p {
+    text-align: justify;
+}
+
+/*                          info-end                             */
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                               about-page                                  */
+/* -------------------------------------------------------------------------- */
+
+.about-page h3 {
+    color: #EDAC2E;
+}
+
+.about-page p {
+    text-align: justify;
+}
+
+.about-page .accordion-item {
+    background: linear-gradient(90deg, #fae1d0, #fafafa);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.about-page .accordion-header {
+    border: none;
+    border-left: 0.5rem solid #fc962a;
+
+}
+
+.about-page.accordion-button {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.about-page .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+    /* Prevent the dotted border */
+}
+
+.about-page .accordion-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Styling for non-collapsed (active) button */
+.about-page .accordion-button:not(.collapsed) {
+    background-color: #f1f3f5;
+    /* box-shadow: inset 0 -1px 0 rgba(0,0,0,.125); */
+}
+
+/* Hover effect */
+.about-page .accordion-button:hover {
+    background-color: #fc962a;
+    color: rgb(13, 0, 88);
+}
+
+/* Custom accordion body style */
+.about-page .accordion-body {
+    font-size: 0.9rem;
+    color: #858585;
+}
+
+.about-page .accordion-item:hover .accordion-collapse {
+    display: block !important;
+    /* Show the content on hover */
+}
+
+/*                              about-end page                           */
+
+
+/* -------------------------------------------------------------------------- */
+/*                                Our Achievement                              */
+/* -------------------------------------------------------------------------- */
+
+.achievement-page {
+    background-color: #FFFDFA;
+    position: relative;
+    padding: 20px;
+}
+
+.achievement-page h3 span {
+    color: #1e0f64;
+}
+
+.achievement-page .underline-3 {
+    display: block;
+    width: 12rem;
+    margin-left: 4rem;
+}
+
+.achievement-page .item {
+    margin-bottom: 30px;
+}
+
+.achievement-page .icon {
+    font-size: 2.1rem;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+.achievement-page .icon i {
+    margin: 0.3rem;
+}
+
+.achievement-page .poster1-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.achievement-page .content h4 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.achievement-page .content p {
+    margin: 0;
+}
+
+.achievement-page .icon1 {
+    background-color: #9dfcd6;
+    color: #027b4b;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.achievement-page .icon1:hover {
+    background-color: #58ffbc;
+    color: #027b4b;
+}
+
+.achievement-page .icon2 {
+    background-color: #fff7c7;
+    color: #fdbd1d;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.achievement-page .icon2:hover {
+    background-color: #faf2c4;
+    color: #fcb603;
+}
+
+.achievement-page .icon3 {
+    background-color: #ffc7f9;
+    color: #fd1dee;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.achievement-page .icon3:hover {
+    background-color: #f7c0ed;
+    color: #fc00eb;
+}
+
+.achievement-page .icon4 {
+    background-color: #c7d8ff;
+    color: #1da0fd;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+    width: 3.6rem;
+}
+
+.achievement-page .icon4:hover {
+    background-color: #b7d0f5;
+    color: #008df3;
+}
+
+
+/* testimonieal carosel */
+
+.achievement-page .testimonials-carousel {
+
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.achievement-page .testimonial-item {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 50px;
+    position: relative;
+    text-align: left;
+    width: 29rem;
+
+}
+
+
+.achievement-page .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.achievement-page .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.achievement-page .profile .profile-img {
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.achievement-page .profile-info h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.achievement-page .profile .profile-info span {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.achievement-page .testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.achievement-page .owl-prev,
+.owl-next {
+    background-color: #ffc107;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px;
+    position: absolute;
+    bottom: 10%;
+    margin-top: 5px;
+    width: 40px;
+}
+
+.achievement-page .owl-prev {
+    left: 30rem;
+}
+
+.achievement-page .owl-next {
+    right: 30rem;
+}
+
+.achievement-page .owl-prev {
+    background-color: #F39C12;
+    color: #FFC27A;
+    font-size: 1.5rem;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.achievement-page .owl-prev:hover {
+    background-color: #fff3eb;
+    border: 1px solid #faefbe;
+}
+
+.achievement-page .owl-next {
+    background-color: #fce3d3;
+    color: #FFC27A;
+    font-size: 1.5rem;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.achievement-page .owl-next:hover {
+    background-color: #F39C12;
+    border: 1px solid #faefbe;
+}
+
+
+/* Adjust dots styles */
+.achievement-page .owl-dots .owl-dot {
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievement-page .owl-dots {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.achievement-page .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background-color: #3498DB;
+    border-radius: 50%;
+    display: block;
+}
+
+.achievement-page .owl-dots .owl-dot.active span {
+    background-color: #F39C12;
+}
+
+.achievement-page .quote {
+    font-size: 5rem;
+    color: #F39C12;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.achievement-page .testimonials-carousel {
+    padding: 30px 0;
+}
+
+.achievement-page .testimonial-item {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.achievement-page .testimonial-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.achievement-page .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.achievement-page .profile .profile-img {
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.achievement-page .profile-info h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.achievement-page .profile .profile-info span {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.achievement-page .testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.achievement-page .owl-prev,
+.achievement-page .owl-next {
+    background-color: #ffc107;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px;
+    position: absolute;
+    margin-top: 5px;
+    width: 40px;
+}
+
+.achievement-page .owl-prev {
+    left: 60px;
+    margin-top: 5px;
+}
+
+.achievement-page .owl-next {
+    margin-top: 5px;
+    right: 60px;
+}
+
+.achievement-page .owl-prev:hover,
+.achievement-page .owl-next:hover {
+    background-color: #fff3df;
+    color: #3a13e8;
+
+}
+
+.achievement-page .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.achievement-page .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background-color: #3498DB;
+    border-radius: 50%;
+    display: block;
+}
+
+.achievement-page .owl-dots .owl-dot.active span {
+    background-color: #F39C12;
+}
+
+.achievement-page .quote {
+    font-size: 5rem;
+    color: #F39C12;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .achievement-page .owl-prev {
+        left: -30px;
+    }
+
+    .achievement-page .owl-next {
+        right: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .achievement-page .testimonial-item {
+        margin: 15px;
+    }
+
+    .achievement-page .owl-prev,
+    .achievement-page .owl-next {
+        font-size: 1rem;
+    }
+
+    .achievement-page .owl-prev {
+        left: -10px;
+    }
+
+    .achievement-page .owl-next {
+        right: -10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .achievement-page .testimonial-item {
+        margin: 10px;
+    }
+
+    .achievement-page .owl-prev,
+    .achievement-page .owl-next {
+        font-size: 0.75rem;
+        width: 30px;
+    }
+
+    .achievement-page .owl-prev {
+        left: -5px;
+    }
+
+    .achievement-page .owl-next {
+        right: -5px;
+    }
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 Discover Course & Bootcamp                   */
+/* -------------------------------------------------------------------------- */
+
+.discover-course .course-title {
+    color: #081378;
+}
+
+.discover-course p {
+    text-align: justify;
+}
+
+.discover-course .card {
+    width: 21rem;
+    margin: 5px 40px 5px;
+    background-color: #f1f9fa;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.discover-course .card-img-top {
+    margin-left: -12px;
+    width: 21rem;
+    /* Makes the image take the full width of the card */
+    height: 250px;
+    /* Fixed height for consistency across images */
+    max-width: 110%;
+    /* Ensures image won't overflow the card width */
+    min-width: 100%;
+    /* Forces the image to at least match card width */
+    object-fit: fill;
+    /* Keeps the image aspect ratio, filling the space */
+    padding: 0;
+
+}
+
+.discover-course .card-body .icon span {
+    font-size: 0.7rem;
+}
+
+
+.discover-course .card h6 {
+    top: 40px;
+    left: 0;
+    color: #f1f3f5;
+    background-color: #ff8c00;
+    padding: 10px;
+    border-radius: 1px;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              core_value                                  */
+/* -------------------------------------------------------------------------- */
+
+
+.core_value {
+    position: relative;
+    width: 100%;
+}
+
+.core_value h3 {
+    color: #020067;
+}
+
+.core_value .core_content span {
+    color: #ffb406;
+}
+
+.core_value .core_content button {
+    color: #ffffff;
+    background-color: #ffb406;
+}
+
+.core_value .all_join_bottom {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: -1;
+    width: 35rem;
+
+}
+
+.core_value .core_icon_img {
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.core_value .core_item_details {
+
+    background-color: #f7fcff;
+    text-align: justify;
+    font-size: 0.8rem;
+    width: 18rem;
+    margin-top: 5px;
+    height: 120px;
+    margin: 2px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.core_value .core_item_details .core_icon_img p {
+    color: #1b0289;
+}
+
+.Contact_page h3 {
+    color: #020067;
+}
+
+.Contact_page h4 {
+    color: #f4af00;
+}
+
+.Contact_page button {
+    background-color: #f4af00;
+}
+
+.Contact_page button:hover {
+    background-color: #ffeec1;
+}
+
+
+@media (max-width: 576px) {
+    .core_value .all_join_bottom {
+        right: -7px;
+        /* bottom: 621px; */
+        z-index: -1;
+        width: 39rem;
+        top: 294px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                Global footer                       */
+/* -------------------------------------------------------------------------- */
+
+.footer-ims {
+    margin: 0px;
+    padding: 0px;
+    background-color: #231e3d;
+
+}
+
+.footer-ims .single_footer {
+    margin-left: 42px;
+    margin-right: 42px;
+    font-size: 14px;
+
+}
+
+.footer-ims .single_footer .footer-logo {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.footer-ims .single_footer .footer-logo img {
+    display: block;
+    /* Ensures proper block-level display */
+    max-width: 100%;
+    /* Ensures the logo is responsive */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+
+.footer-ims .single_footer .list-unstyled a {
+    text-decoration: none;
+    /* Removes underline from links */
+    color: rgb(0, 0, 0);
+    /* Makes link text red */
+    margin: 2px;
+    color: #ffffff;
+
+}
+
+.footer-ims .single_footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer-ims .single_footer h6 {
+
+    color: rgb(255, 136, 0);
+    margin-bottom: 30px;
+
+}
+
+.footer-ims .single_footer .mybutton {
+    background-color: #fc962a;
+
+    width: 110px;
+
+}
+
+.footer-ims .single_footer .mybutton:hover {
+    background-color: #FFA740;
+    width: 110px;
+    border: 2px solid #8d4b00;
+}
+
+
+.footer-ims .single_footer .qrcode {
+    width: 70px;
+    /* Sets width for QR code */
+    height: auto;
+    /* Maintains aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-ims .single_footer .social-media li i {
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: #E9F8F3;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transform: translate(0, -10%);
+}
+
+
+.footer-ims .single_footer .social-media li i:hover {
+    font-size: 1.2rem;
+    background-color: #FFA740;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.footer-ims .single_footer .social-media .firsticon {
+    background-color: #FFA740;
+}
+
+.footer-ims .footer-copy {
+    width: 100%;
+    height: 100px;
+    background-color: #1e1934;
+    align-items: center;
+
+}
+
+.footer-ims .single_footer .adresss1 li i {
+    margin-right: 1rem;
+    color: #ffffff;
+
+    margin-right: 10px;
+    /* Space between icon and text */
+    font-size: 18px;
+    /* Adjust icon size as needed */
+
+}
+
+.footer-ims .single_footer .adresss1 li {
+    display: flex;
+    /* Use flexbox for alignment */
+    align-items: center;
+    /* Vertically center align items */
+    margin-bottom: 10px;
+    /* Space between list items */
+    color: #fff;
+
+
+}
+
+.footer-ims .single_footer .adresss1 li p {
+    margin: 0;
+    /* Remove default paragraph margin */
+    font-size: 14px;
+    /* Adjust font size */
+
+
+}
+
+/* end of footer */

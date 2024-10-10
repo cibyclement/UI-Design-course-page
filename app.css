@@ -1,0 +1,383 @@
+/* media quary css design */
+@media (max-width: 375px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #ffc27a;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #ffc27a;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+    }
+
+    .header-page .hero-header .rotate-img .triangel_image {
+        width: 5rem;
+        left: 767px;
+        top: 360px;
+        opacity: 0.2;
+    }
+
+    .hero-header::after {
+        left: 100px;
+        top: 339px;
+        left: 100px;
+        width: 6rem;
+        height: 5rem;
+        opacity: 0.2;
+    }
+}
+
+@media (max-width: 667px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #ffc27a;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #ffc27a;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #ffc27a;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #ffc27a;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+    }
+
+    .header-page .hero-header .rotate-img .triangel_image {
+        width: 5rem;
+        left: 767px;
+        top: 360px;
+        opacity: 0.2;
+    }
+
+    .hero-header::after {
+        left: 100px;
+        top: 339px;
+        left: 100px;
+        width: 6rem;
+        height: 5rem;
+        opacity: 0.2;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #ffc27a;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #ffc27a;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-page .hero-header .company-container .conpany-navigation0 {
+        margin-right: 0px;
+    }
+
+    .header-page .hero-header .hero-img img {
+        width: 15rem;
+        margin-top: 1rem;
+        margin-right: 6rem;
+    }
+
+    .header-page .hero-header .rotate-img .circle_image {
+        width: 14rem;
+    }
+
+    .navbar-navigate {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .header-page .image-container .right-img {
+        display: none;
+    }
+
+    .header-page .image-container .left-img {
+        display: none;
+    }
+
+    .header-page .company-container .company-header {
+        padding-left: 1px;
+    }
+
+    .header-page .hero-header .company-container .welcome-text {
+        font-size: 18px;
+        color: #ffc27a;
+        margin: 1px;
+    }
+
+    .header-page .hero-header .company-container .company-name {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-abrivation {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header-page .hero-header .company-container .company-button {
+        font-size: 1rem;
+        background-color: #ffc27a;
+        border-radius: 0.5rem;
+    }
+
+    .header-page .hero-header .company-container .company-smart-word {
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 1rem;
+        left: 25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-page .company-container .company-header {
+        padding-left: 2rem;
+    }
+
+    .header-page .company-container .company-header .hunder-line1 {
+        top: 3.8rem;
+    }
+
+    .header-page .company-container .company-header .hunder-line2 {
+        top: 8.7rem;
+        left: 7rem;
+    }
+}
